@@ -11,9 +11,10 @@ namespace CTCISolutions
     {
         static void Main(string[] args)
         {
-            //Q1_01 q1_1 = new Q1_01();
-            (new Q1_01()).Run();
+            //Q1_01 solution = new Q1_01();
+            Q1_03 solution = new Q1_03();
 
+            solution.Run();
             Console.ReadKey();
         }
     }
