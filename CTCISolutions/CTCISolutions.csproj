@@ -46,6 +46,7 @@
     <Compile Include="Chapter 1 Arrays And Strings\Q1_01.cs" />
     <Compile Include="Chapter 1 Arrays And Strings\Q1_02.cs" />
     <Compile Include="Chapter 1 Arrays And Strings\Q1_03.cs" />
+    <Compile Include="Chapter 1 Arrays And Strings\Q1_05.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
