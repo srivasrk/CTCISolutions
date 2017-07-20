@@ -40,7 +40,7 @@ namespace CTCISolutions.Chapter_1_Arrays_And_Strings
 
         public void Run()
         {
-            const string original = "abbccccccde";
+            const string original = "abbccccccdeeefffff";
             var compressed = Compress(original);
             Console.WriteLine("Original  : {0}", original);
             Console.WriteLine("Compressed: {0}", compressed);
