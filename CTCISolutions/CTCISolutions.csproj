@@ -51,6 +51,7 @@
     <Compile Include="Chapter 1 Arrays And Strings\Q1_03.cs" />
     <Compile Include="Chapter 1 Arrays And Strings\Q1_05.cs" />
     <Compile Include="Chapter 1 Arrays And Strings\Q1_06.cs" />
+    <Compile Include="Chapter 1 Arrays And Strings\Q1_07.cs" />
     <Compile Include="Library\AssortedMethods.cs" />
     <Compile Include="Library\BitVector.cs" />
     <Compile Include="Library\BTreePrinter.cs" />
