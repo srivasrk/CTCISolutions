@@ -41,11 +41,13 @@ namespace CTCISolutions.Chapter_1_Arrays_And_Strings
             const int size = 3;
 
             var matrix = AssortedMethods.RandomMatrix(size, size, 0, 9);
+            Console.WriteLine("Original Matrix:");
             AssortedMethods.PrintMatrix(matrix);
 
             Rotate(matrix, size);
 
             Console.WriteLine();
+            Console.WriteLine("Rotated Matrix:");
             AssortedMethods.PrintMatrix(matrix);
         }
     }
