@@ -13,7 +13,6 @@ namespace CTCISolutions.Chapter_1_Arrays_And_Strings
          Word1 + Word1 = waterbottlewaterbottle.
          Check if Word2 is a rotation of the above string.
          */
-
         private bool IsRotation(string Word1, string Word2)
         {
             if (Word1.Length != Word2.Length)

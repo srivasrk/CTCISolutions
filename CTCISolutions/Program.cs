@@ -1,4 +1,5 @@
 ﻿using CTCISolutions.Chapter_1_Arrays_And_Strings;
+using CTCISolutions.Chapter_2_Linked_Lists;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -17,7 +18,9 @@ namespace CTCISolutions
             //Q1_05 solution = new Q1_05();
             //Q1_06 solution = new Q1_06();
             //Q1_07 solution = new Q1_07();
-            Q1_08 solution = new Q1_08();
+            //Q1_08 solution = new Q1_08();
+
+            Q2_01 solution = new Q2_01();
 
             solution.Run();
             Console.ReadKey();
