@@ -38,7 +38,6 @@ namespace CTCISolutions.Chapter_2_Linked_Lists
                 current = current.Next;
 
             }
-
         }
 
         /*
@@ -201,9 +200,7 @@ namespace CTCISolutions.Chapter_2_Linked_Lists
 
 
         }
-
-
-
+                
 
         /*
          Write a code to remove duplicates from a LinkedList.

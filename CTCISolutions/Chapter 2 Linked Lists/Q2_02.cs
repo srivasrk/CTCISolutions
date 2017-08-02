@@ -36,7 +36,9 @@ namespace CTCISolutions.Chapter_2_Linked_Lists
             return head;
         }
 
-
+        /*
+         Write an algorithm to find the kth to last element of a singly linked list.
+             */
         public void Run()
         {
             var head = AssortedMethods.RandomLinkedList(10, 0, 10);

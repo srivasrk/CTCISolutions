@@ -65,6 +65,12 @@ namespace CTCISolutions.Chapter_2_Linked_Lists
 
         }
 
+
+        /*
+         Write code to partition a linked list around a value X, such that
+         all nodes less than X come before, and all nodes greater than X comes
+         after X.
+             */
         public void Run()
         {
             /* Create linked list */

@@ -23,6 +23,13 @@ namespace CTCISolutions.Chapter_2_Linked_Lists
 
         }
 
+        /*
+         Implement an algo to delete a node in the middle of a singly linked list,
+         given access to only that node.
+         Example: Input the node c from the linked list a->b->c->d->e
+         Result: nothing is returned but the new linked list looks like: a->b->d->e
+             */
+
         public void Run()
         {
             var head = AssortedMethods.RandomLinkedList(10, 0, 10);
