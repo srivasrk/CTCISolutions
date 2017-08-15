@@ -23,7 +23,8 @@ namespace CTCISolutions
             //Q2_01 solution = new Q2_01();
             //Q2_02 solution = new Q2_02();
             //Q2_03 solution = new Q2_03();
-            Q2_04 solution = new Q2_04();
+            //Q2_04 solution = new Q2_04();
+            Q2_05 solution = new Q2_05();
 
             solution.Run();
             Console.ReadKey();
