@@ -1,4 +1,5 @@
-﻿using CTCISolutions.Chapter_1_Arrays_And_Strings;
+﻿using CTCISolutions.Chapter_0_Not_from_book;
+using CTCISolutions.Chapter_1_Arrays_And_Strings;
 using CTCISolutions.Chapter_2_Linked_Lists;
 using System;
 using System.Collections.Generic;
@@ -12,6 +13,7 @@ namespace CTCISolutions
     {
         static void Main(string[] args)
         {
+            A1_QuickSort solution = new A1_QuickSort();
             //Q1_01 solution = new Q1_01();
             //Q1_03 solution = new Q1_03();
             //Q1_04 solution = new Q1_04();
@@ -24,7 +26,7 @@ namespace CTCISolutions
             //Q2_02 solution = new Q2_02();
             //Q2_03 solution = new Q2_03();
             //Q2_04 solution = new Q2_04();
-            Q2_05 solution = new Q2_05();
+            //Q2_05 solution = new Q2_05();
 
             solution.Run();
             Console.ReadKey();

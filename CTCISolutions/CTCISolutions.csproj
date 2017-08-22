@@ -45,6 +45,7 @@
     <Reference Include="WindowsBase" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Chapter 0 Not from book\A1_QuickSort.cs" />
     <Compile Include="Chapter 1 Arrays And Strings\Q1_04.cs" />
     <Compile Include="Chapter 1 Arrays And Strings\Q1_01.cs" />
     <Compile Include="Chapter 1 Arrays And Strings\Q1_02.cs" />
