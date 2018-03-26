@@ -15,7 +15,8 @@ namespace CTCISolutions
         {
             //A1_QuickSort solution = new A1_QuickSort();
             //A2_CheckBinaryNumDivBy3 solution = new A2_CheckBinaryNumDivBy3();
-            A3_KadanesAlgo solution = new A3_KadanesAlgo();
+            //A3_KadanesAlgo solution = new A3_KadanesAlgo();
+            A4_Fibonacci solution = new A4_Fibonacci();
             //Q1_01 solution = new Q1_01();
             //Q1_03 solution = new Q1_03();
             //Q1_04 solution = new Q1_04();

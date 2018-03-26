@@ -52,8 +52,7 @@ namespace CTCISolutions.Chapter_0_Not_from_book
                 QuickSort(nums, p + 1, high);
             }
         }
-
-
+        
         //Implement Quick sort
         public void Run()
         {
