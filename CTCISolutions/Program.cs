@@ -13,23 +13,31 @@ namespace CTCISolutions
     {
         static void Main(string[] args)
         {
-            //A1_QuickSort solution = new A1_QuickSort();
-            //A2_CheckBinaryNumDivBy3 solution = new A2_CheckBinaryNumDivBy3();
-            //A3_KadanesAlgo solution = new A3_KadanesAlgo();
-            A4_Fibonacci solution = new A4_Fibonacci();
-            //Q1_01 solution = new Q1_01();
-            //Q1_03 solution = new Q1_03();
-            //Q1_04 solution = new Q1_04();
-            //Q1_05 solution = new Q1_05();
-            //Q1_06 solution = new Q1_06();
-            //Q1_07 solution = new Q1_07();
-            //Q1_08 solution = new Q1_08();
+            #region NOT-FROM-BOOK
+            //var solution = new A1_QuickSort();
+            //var solution = new A2_CheckBinaryNumDivBy3();
+            //var solution = new A3_KadanesAlgo();
+            //var solution = new A4_Fibonacci();
+            var solution = new A5_MinStepsToOne();
+            #endregion
 
-            //Q2_01 solution = new Q2_01();
-            //Q2_02 solution = new Q2_02();
-            //Q2_03 solution = new Q2_03();
-            //Q2_04 solution = new Q2_04();
-            //Q2_05 solution = new Q2_05();
+            #region CHAPTER-1
+            //var solution = new Q1_01();
+            //var solution = new Q1_03();
+            //var solution = new Q1_04();
+            //var solution = new Q1_05();
+            //var solution = new Q1_06();
+            //var solution = new Q1_07();
+            //var solution = new Q1_08();
+            #endregion
+
+            #region CHAPTER-2
+            //var solution = new Q2_01();
+            //var solution = new Q2_02();
+            //var solution = new Q2_03();
+            //var solution = new Q2_04();
+            //var solution = new Q2_05();
+            #endregion
 
             solution.Run();
             Console.ReadKey();
