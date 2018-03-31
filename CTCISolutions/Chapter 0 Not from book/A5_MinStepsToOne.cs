@@ -22,6 +22,7 @@ namespace CTCISolutions.Chapter_0_Not_from_book
         3.)  For n = 7 , output: 3  (  7  -1 = 6   /3 = 2   /2 = 1 )
          */
 
+        //Can cause stack overflow
         private int MinStepsToOne_DPWithMemo(Dictionary<int, int> memo, int num)
         {
 
@@ -48,16 +49,43 @@ namespace CTCISolutions.Chapter_0_Not_from_book
                 return min;
             }            
         }
+        
+        private int MinStepsToOne_BottomUp(int num)
+        {
+            if (num == 1)
+            {
+                return 0;
+            }
+            var memo = new int[num + 1];
+            memo[1] = 0;
+
+            for (int index = 2; index <= num; index++)
+            {
+                var min = 1 + memo[index - 1];
+                if ((index % 2) == 0)
+                {
+                    min = Math.Min(min, 1 + memo[index / 2]);
+                }
+                if ((index % 3) == 0)
+                {
+                    min = Math.Min(min, 1 + memo[index / 3]);
+                }
+                memo[index] = min;
+            }
+            return memo[num];
+        }
 
         public void Run()
         {
-            var num = 10;
+            var num = 10; // num has to be an integer greater than 0
             Console.WriteLine("Min steps to {0}:", num);
 
             var memo = new Dictionary<int, int>();
+
             var min = MinStepsToOne_DPWithMemo(memo, 10);
             Console.WriteLine(min);
-
+            min = MinStepsToOne_BottomUp(10);
+            Console.WriteLine(min);
         }
     }
 }
