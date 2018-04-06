@@ -18,7 +18,9 @@ namespace CTCISolutions
             //var solution = new A2_CheckBinaryNumDivBy3();
             //var solution = new A3_KadanesAlgo();
             //var solution = new A4_Fibonacci();
-            var solution = new A5_MinStepsToOne();
+            //var solution = new A5_MinStepsToOne();
+            //var solution = new A6_LongestIncreasingSubarray();
+            var solution = new A7_LongestCommonSubsequence();
             #endregion
 
             #region CHAPTER-1

@@ -50,6 +50,8 @@
     <Compile Include="Chapter 0 Not from book\A3_KadanesAlgo.cs" />
     <Compile Include="Chapter 0 Not from book\A4_Fibonacci.cs" />
     <Compile Include="Chapter 0 Not from book\A5_MinStepsToOne.cs" />
+    <Compile Include="Chapter 0 Not from book\A6_LongestIncreasingSubarray.cs" />
+    <Compile Include="Chapter 0 Not from book\A7_LongestCommonSubsequence.cs" />
     <Compile Include="Chapter 1 Arrays And Strings\Q1_04.cs" />
     <Compile Include="Chapter 1 Arrays And Strings\Q1_01.cs" />
     <Compile Include="Chapter 1 Arrays And Strings\Q1_02.cs" />

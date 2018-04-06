@@ -17,9 +17,9 @@ namespace CTCISolutions.Chapter_0_Not_from_book
          number of steps that takes n to 1
 
         eg: 
-        1.)For n = 1 , output: 0       
+        1.) For n = 1 , output: 0       
         2.) For n = 4 , output: 2  ( 4  /2 = 2  /2 = 1 )    
-        3.)  For n = 7 , output: 3  (  7  -1 = 6   /3 = 2   /2 = 1 )
+        3.) For n = 7 , output: 3  (  7  -1 = 6   /3 = 2   /2 = 1 )
          */
 
         //Can cause stack overflow
@@ -45,7 +45,7 @@ namespace CTCISolutions.Chapter_0_Not_from_book
                 {
                     min = Math.Min(min, 1 + MinStepsToOne_DPWithMemo(memo, num / 3));
                 }
-                memo[num] = min;
+                memo.Add(num, min);
                 return min;
             }            
         }
@@ -85,7 +85,7 @@ namespace CTCISolutions.Chapter_0_Not_from_book
             var min = MinStepsToOne_DPWithMemo(memo, 10);
             Console.WriteLine(min);
             min = MinStepsToOne_BottomUp(10);
-            Console.WriteLine(min);
+            Console.WriteLine(min); 
         }
     }
 }
