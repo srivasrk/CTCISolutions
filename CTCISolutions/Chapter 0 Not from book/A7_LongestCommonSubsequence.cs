@@ -1,9 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Diagnostics;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace CTCISolutions.Chapter_0_Not_from_book
 {
@@ -55,7 +52,7 @@ namespace CTCISolutions.Chapter_0_Not_from_book
             }
         }
 
-        public void Run()
+        public void Run() 
         {
             string s1 = "ABCDEFGHIS";
             string s2 = "ABCJDCHBIqweLKHD";
