@@ -66,6 +66,7 @@
     <Compile Include="Chapter 2 Linked Lists\Q2_04.cs" />
     <Compile Include="Chapter 2 Linked Lists\Q2_05.cs" />
     <Compile Include="Chapter 2 Linked Lists\Q2_06.cs" />
+    <Compile Include="Chapter 2 Linked Lists\Q2_07.cs" />
     <Compile Include="Library\AssortedMethods.cs" />
     <Compile Include="Library\BitVector.cs" />
     <Compile Include="Library\BTreePrinter.cs" />

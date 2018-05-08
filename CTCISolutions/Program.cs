@@ -34,7 +34,8 @@ namespace CTCISolutions
             //var solution = new Q2_03();
             //var solution = new Q2_04();
             //var solution = new Q2_05();
-            var solution = new Q2_06();
+            //var solution = new Q2_06();
+            var solution = new Q2_07();
             #endregion
 
             solution.Run();
