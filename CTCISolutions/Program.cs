@@ -39,7 +39,8 @@ namespace CTCISolutions
             #endregion
 
             #region CHAPTER-3
-            var solution = new Q3_01();
+            //var solution = new Q3_01();
+            var solution = new Q3_02();
 
             #endregion
 

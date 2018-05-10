@@ -9,64 +9,77 @@ namespace CTCISolutions.Chapter_2_Linked_Lists
 {
     class Q3_02
     {
-        private static int size = 10;
-        private int[] stackPointer = { -1, -1, -1 };
-        private int[] buffer = new int[size * 3];
-
-        private int TopOfStackIndex(int stackNumber)
+        private Stack<int> stack = new Stack<int>();        
+        public int min = int.MaxValue;
+        
+        public void Push(int x)
         {
-            return (stackNumber * size) + stackPointer[stackNumber];
-        }
-
-        public void Push(int stackNumber, int value)
-        {
-            if (stackPointer[stackNumber] + 1 >= size)
+            if (x <= min)
             {
-                throw new Exception("Stack is full");
+                stack.Push(min);
+                min = x;
             }
 
-            stackPointer[stackNumber]++;
-            buffer[TopOfStackIndex(stackNumber)] = value;
+            stack.Push(x);
         }
 
-        public int Pop(int stackNumber)
+        public int Pop()
         {
-            if (stackPointer[stackNumber] == -1)
+            var x = stack.Pop();
+
+            if (x == min)
             {
-                throw new Exception("Stack is empty");
+                min = stack.Pop();
             }
 
-            var value = buffer[TopOfStackIndex(stackNumber)];
-            buffer[TopOfStackIndex(stackNumber)] = 0;
-            stackPointer[stackNumber]--;
-            return value;
+            return x;
         }
 
-        public int Peek(int stackNumber)
+        public int Min()
         {
-
-            return buffer[TopOfStackIndex(stackNumber)];
-        }
-
-        public bool IsStackEmpty(int stackNumber)
-        {
-            return (stackPointer[stackNumber] == -1);
+            return min;
         }
 
         public void Run()
         {
-            //Describe how you could use a single array to implement three stacks.
+            /*
+                How would you design a stack which, in addition to push and pop, also has a
+                function min which returns the minimum element? Push, pop and min should
+                all operate in O(1) time.
+            */
 
-            Push(2, 4);
-            Console.WriteLine("Peek 2: " + Peek(2));
-            Push(0, 3);
-            Push(0, 7);
-            Push(0, 5);
-            Console.WriteLine("Peek 0: " + Peek(0));
-            Pop(0);
-            Console.WriteLine("Peek 0: " + Peek(0));
-            Pop(0);
-            Console.WriteLine("Peek 0: " + Peek(0));
+            Push(4);
+            Console.WriteLine("Push(4)");
+
+            Console.WriteLine("Min: " + Min());
+
+            Push(3);
+            Console.WriteLine("Push(3)");
+
+            Push(7);
+            Console.WriteLine("Push(7)");
+
+            Push(5);
+            Console.WriteLine("Push(5)");
+
+            Console.WriteLine("Min: " + Min());
+                        
+            Console.WriteLine("Pop:" + Pop());
+
+            Console.WriteLine("Min: " + Min());
+
+            Console.WriteLine("Pop:" + Pop());
+
+            Console.WriteLine("Min: " + Min());
+
+            Push(0);
+            Console.WriteLine("Push(0)");
+
+            Console.WriteLine("Min: " + Min());
+
+            Console.WriteLine("Pop:" + Pop());
+
+            Console.WriteLine("Min: " + Min());
         }
     }
 }
