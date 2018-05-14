@@ -69,6 +69,7 @@
     <Compile Include="Chapter 2 Linked Lists\Q2_07.cs" />
     <Compile Include="Chapter 3 Stacks And Queues\Q3_02.cs" />
     <Compile Include="Chapter 3 Stacks And Queues\Q3_01.cs" />
+    <Compile Include="Chpater 4 Trees And Graphs\Q4_01.cs" />
     <Compile Include="Library\AssortedMethods.cs" />
     <Compile Include="Library\BitVector.cs" />
     <Compile Include="Library\BTreePrinter.cs" />

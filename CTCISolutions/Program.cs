@@ -40,10 +40,14 @@ namespace CTCISolutions
 
             #region CHAPTER-3
             //var solution = new Q3_01();
-            var solution = new Q3_02();
+            //var solution = new Q3_02();
 
             #endregion
 
+            #region CHAPTER-4
+            var solution = new Q4_01();
+
+            #endregion
             solution.Run();
             Console.ReadKey();
         }
