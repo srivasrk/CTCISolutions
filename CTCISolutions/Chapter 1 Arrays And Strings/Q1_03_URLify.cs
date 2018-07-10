@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace CTCISolutions.Chapter_1_Arrays_And_Strings
 {
-    class Q1_04 //Urlify
+    class Q1_03_URLify //Urlify
     {
         /*
          Step1: Count the number of spaces.

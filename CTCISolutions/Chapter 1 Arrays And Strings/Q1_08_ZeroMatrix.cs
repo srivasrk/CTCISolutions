@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace CTCISolutions.Chapter_1_Arrays_And_Strings
 {
-    class Q1_07
+    class Q1_08_ZeroMatrix
     {
         public void SetZeros(int[][] matrix)
         {

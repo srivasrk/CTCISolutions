@@ -22,12 +22,13 @@ namespace CTCISolutions
             #region CHAPTER-1
             var solution11 = new Q1_01_UniqueChars();
             var solution12 = new Q1_02_ArePermutations();
-            var solution13 = new Q1_03();
-            var solution14 = new Q1_04();
-            var solution15 = new Q1_05();
-            var solution16 = new Q1_06();
-            var solution17 = new Q1_07();
-            var solution18 = new Q1_08();
+            var solution12_2 = new Q1_02_ArePermutations2();
+            var solution13 = new Q1_03_URLify();
+            var solution14 = new Q1_04_PalPermut();
+            var solution16 = new Q1_06_Compression();
+            var solution17 = new Q1_07_RotateMatrix();
+            var solution18 = new Q1_08_ZeroMatrix();
+            var solution19 = new Q1_09_StringRotation();
             #endregion
 
             #region CHAPTER-2
@@ -51,7 +52,7 @@ namespace CTCISolutions
 
             #endregion
 
-            solution12.Run();
+            solution14.Run();
             Console.ReadKey();
         }
     }

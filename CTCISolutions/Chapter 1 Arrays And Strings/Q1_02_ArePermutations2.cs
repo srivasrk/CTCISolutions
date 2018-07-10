@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace CTCISolutions.Chapter_1_Arrays_And_Strings
 {
-    class Q1_03
+    class Q1_02_ArePermutations2
     {
         //Keep the count of chars in each word in a dictionary.
         //for chars in word1, increment the count of chars, and 

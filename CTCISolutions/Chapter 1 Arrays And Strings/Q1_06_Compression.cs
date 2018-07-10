@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace CTCISolutions.Chapter_1_Arrays_And_Strings
 {
-    class Q1_05
+    class Q1_06_Compression
     {
         private string Compress(string input)
         {

@@ -2,7 +2,7 @@
 
 namespace CTCISolutions.Chapter_1_Arrays_And_Strings
 {
-    class Q1_08
+    class Q1_09_StringRotation
     {
         /*
          Solution:

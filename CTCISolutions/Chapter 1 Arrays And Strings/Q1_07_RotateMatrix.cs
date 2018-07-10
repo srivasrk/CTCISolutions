@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace CTCISolutions.Chapter_1_Arrays_And_Strings
 {
-    class Q1_06
+    class Q1_07_RotateMatrix
     {
         private void Rotate(int[][] matrix, int size)
         {
