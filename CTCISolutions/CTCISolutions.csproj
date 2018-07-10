@@ -53,8 +53,8 @@
     <Compile Include="Chapter 0 Not from book\A6_LongestIncreasingSubarray.cs" />
     <Compile Include="Chapter 0 Not from book\A7_LongestCommonSubsequence.cs" />
     <Compile Include="Chapter 1 Arrays And Strings\Q1_04.cs" />
-    <Compile Include="Chapter 1 Arrays And Strings\Q1_01.cs" />
-    <Compile Include="Chapter 1 Arrays And Strings\Q1_02.cs" />
+    <Compile Include="Chapter 1 Arrays And Strings\Q1_01_UniqueChars.cs" />
+    <Compile Include="Chapter 1 Arrays And Strings\Q1_02_ArePermutations.cs" />
     <Compile Include="Chapter 1 Arrays And Strings\Q1_03.cs" />
     <Compile Include="Chapter 1 Arrays And Strings\Q1_05.cs" />
     <Compile Include="Chapter 1 Arrays And Strings\Q1_06.cs" />

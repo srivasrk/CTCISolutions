@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace CTCISolutions.Chapter_1_Arrays_And_Strings
 {
-    class Q1_01
+    class Q1_01_UniqueChars
     {
         //This is with additional Data Structure
         private bool IsUniqueChars(string word)
