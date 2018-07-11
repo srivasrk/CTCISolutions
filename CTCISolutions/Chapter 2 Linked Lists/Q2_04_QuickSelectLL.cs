@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace CTCISolutions.Chapter_2_Linked_Lists
 {
-    class Q2_04
+    class Q2_04_QuickSelectLL
     {
         private LinkedListNode Partition(LinkedListNode headNode, int pivotData)
         {
@@ -21,6 +21,7 @@ namespace CTCISolutions.Chapter_2_Linked_Lists
 
             while (currentNode != null)
             {
+                Console.WriteLine("Checking: " + currentNode.Data);
                 nextNode = currentNode.Next;
                 currentNode.Next = null;
 
@@ -29,6 +30,7 @@ namespace CTCISolutions.Chapter_2_Linked_Lists
                     if (leftList == null)
                     {
                         leftList = currentNode;
+                        headNode = currentNode;
                     }
                     else
                     {
@@ -46,7 +48,7 @@ namespace CTCISolutions.Chapter_2_Linked_Lists
                     else
                     {
                         rightList.Next = currentNode;
-                        rightList = leftList.Next;
+                        rightList = rightList.Next;
                     }
                 }
                 else
@@ -74,7 +76,7 @@ namespace CTCISolutions.Chapter_2_Linked_Lists
         public void Run()
         {
             /* Create linked list */
-            int[] vals = { 1, 3, 7, 5, 2, 9, 4 };
+            int[] vals = { 8, 1, 3, 7, 5, 2, 9, 4 };
             var head = new LinkedListNode(vals[0], null, null);
             var current = head;
 

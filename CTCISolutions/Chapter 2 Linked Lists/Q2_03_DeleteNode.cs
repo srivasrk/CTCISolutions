@@ -7,9 +7,9 @@ using System.Threading.Tasks;
 
 namespace CTCISolutions.Chapter_2_Linked_Lists
 {
-    class Q2_03
+    class Q2_03_DeleteNode
     {
-        private bool DeleteNode(LinkedListNode node)
+        private bool DeleteNodeFromMiddle(LinkedListNode node)
         {
             if ((node == null) || (node.Next == null))
             {
@@ -35,7 +35,7 @@ namespace CTCISolutions.Chapter_2_Linked_Lists
             var head = AssortedMethods.RandomLinkedList(10, 0, 10);
             Console.WriteLine(head.PrintForward());
 
-            var deleted = DeleteNode(head.Next.Next.Next.Next); // delete node 4
+            var deleted = DeleteNodeFromMiddle(head.Next.Next.Next.Next); // delete node 4
             Console.WriteLine("deleted? {0}", deleted);
             Console.WriteLine(head.PrintForward());
         }
