@@ -1,6 +1,7 @@
 ﻿
 using CTCISolutions.Chapter_1_Arrays_And_Strings;
 using CTCISolutions.Chapter_2_Linked_Lists;
+using CTCISolutions.Chapter_3_Stacks_And_Queues;
 using System;
 
 namespace CTCISolutions
@@ -45,6 +46,8 @@ namespace CTCISolutions
             #region CHAPTER-3
             var solution31 = new Q3_01_3Stacks1Array();
             var solution32 = new Q3_02_MinStack();
+            var solution34 = new Q3_04_QueuesViaStacks();
+            var solution35 = new Q3_05_SortStack();
 
             #endregion
 
@@ -53,7 +56,7 @@ namespace CTCISolutions
 
             #endregion
 
-            solution24.Run();
+            solution35.Run();
             Console.ReadKey();
         }
     }
