@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace CTCISolutions.Chapter_2_Linked_Lists
 {
-    class Q2_01
+    class Q2_01_RemoveDupsLL
     {
         /*
          * Time Complexity: O(n)

@@ -62,8 +62,8 @@
     <Compile Include="Chapter 1 Arrays And Strings\Q1_07_RotateMatrix.cs" />
     <Compile Include="Chapter 1 Arrays And Strings\Q1_08_ZeroMatrix.cs" />
     <Compile Include="Chapter 1 Arrays And Strings\Q1_09_StringRotation.cs" />
-    <Compile Include="Chapter 2 Linked Lists\Q2_01.cs" />
-    <Compile Include="Chapter 2 Linked Lists\Q2_02.cs" />
+    <Compile Include="Chapter 2 Linked Lists\Q2_01_RemoveDupsLL.cs" />
+    <Compile Include="Chapter 2 Linked Lists\Q2_02_NthToLastLL.cs" />
     <Compile Include="Chapter 2 Linked Lists\Q2_03.cs" />
     <Compile Include="Chapter 2 Linked Lists\Q2_04.cs" />
     <Compile Include="Chapter 2 Linked Lists\Q2_05.cs" />

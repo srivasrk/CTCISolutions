@@ -33,8 +33,8 @@ namespace CTCISolutions
             #endregion
 
             #region CHAPTER-2
-            var solution21 = new Q2_01();
-            var solution22 = new Q2_02();
+            var solution21 = new Q2_01_RemoveDupsLL();
+            var solution22 = new Q2_02_NthToLastLL();
             var solution23 = new Q2_03();
             var solution24 = new Q2_04();
             var solution25 = new Q2_05();
@@ -53,7 +53,7 @@ namespace CTCISolutions
 
             #endregion
 
-            solution15.Run();
+            solution22.Run();
             Console.ReadKey();
         }
     }

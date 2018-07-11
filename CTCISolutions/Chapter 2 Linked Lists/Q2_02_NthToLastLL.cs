@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace CTCISolutions.Chapter_2_Linked_Lists
 {
-    class Q2_02
+    class Q2_02_NthToLastLL
     {
         private LinkedListNode NthToLast(LinkedListNode head, int n)
         {
