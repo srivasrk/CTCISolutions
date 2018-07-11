@@ -25,6 +25,7 @@ namespace CTCISolutions
             var solution12_2 = new Q1_02_ArePermutations2();
             var solution13 = new Q1_03_URLify();
             var solution14 = new Q1_04_PalPermut();
+            var solution15 = new Q1_05_OneEditAway();
             var solution16 = new Q1_06_Compression();
             var solution17 = new Q1_07_RotateMatrix();
             var solution18 = new Q1_08_ZeroMatrix();
@@ -52,7 +53,7 @@ namespace CTCISolutions
 
             #endregion
 
-            solution14.Run();
+            solution15.Run();
             Console.ReadKey();
         }
     }

@@ -57,6 +57,7 @@
     <Compile Include="Chapter 1 Arrays And Strings\Q1_02_ArePermutations.cs" />
     <Compile Include="Chapter 1 Arrays And Strings\Q1_02_ArePermutations2.cs" />
     <Compile Include="Chapter 1 Arrays And Strings\Q1_04_PalPermut.cs" />
+    <Compile Include="Chapter 1 Arrays And Strings\Q1_05_OneEditAway.cs" />
     <Compile Include="Chapter 1 Arrays And Strings\Q1_06_Compression.cs" />
     <Compile Include="Chapter 1 Arrays And Strings\Q1_07_RotateMatrix.cs" />
     <Compile Include="Chapter 1 Arrays And Strings\Q1_08_ZeroMatrix.cs" />
