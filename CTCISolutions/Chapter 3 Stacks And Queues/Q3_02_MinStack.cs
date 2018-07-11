@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace CTCISolutions.Chapter_2_Linked_Lists
 {
-    class Q3_02
+    class Q3_02_MinStack
     {
         private Stack<int> stack = new Stack<int>();        
         public int min = int.MaxValue;

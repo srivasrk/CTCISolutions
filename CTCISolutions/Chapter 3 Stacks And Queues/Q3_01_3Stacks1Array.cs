@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace CTCISolutions.Chapter_2_Linked_Lists
 {
-    class Q3_01
+    class Q3_01_3Stacks1Array
     {
         private static int size = 10;
         private int[] stackPointer = { -1, -1, -1 };

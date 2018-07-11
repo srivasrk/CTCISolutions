@@ -43,8 +43,8 @@ namespace CTCISolutions
             #endregion
 
             #region CHAPTER-3
-            //var solution = new Q3_01();
-            //var solution = new Q3_02();
+            var solution31 = new Q3_01_3Stacks1Array();
+            var solution32 = new Q3_02_MinStack();
 
             #endregion
 
