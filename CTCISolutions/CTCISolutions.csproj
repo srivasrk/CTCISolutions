@@ -74,6 +74,7 @@
     <Compile Include="Chapter 3 Stacks And Queues\Q3_04_QueuesViaStacks.cs" />
     <Compile Include="Chapter 3 Stacks And Queues\Q3_05_SortStack.cs" />
     <Compile Include="Chpater 4 Trees And Graphs\Q4_01.cs" />
+    <Compile Include="Chpater 4 Trees And Graphs\Q4_02_BSTFromArray.cs" />
     <Compile Include="Library\AssortedMethods.cs" />
     <Compile Include="Library\BitVector.cs" />
     <Compile Include="Library\BTreePrinter.cs" />

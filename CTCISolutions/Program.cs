@@ -2,6 +2,7 @@
 using CTCISolutions.Chapter_1_Arrays_And_Strings;
 using CTCISolutions.Chapter_2_Linked_Lists;
 using CTCISolutions.Chapter_3_Stacks_And_Queues;
+using CTCISolutions.Chpater_4_Trees_And_Graphs;
 using System;
 
 namespace CTCISolutions
@@ -52,11 +53,12 @@ namespace CTCISolutions
             #endregion
 
             #region CHAPTER-4
-            var solution = new Q4_01();
+            var solution41 = new Q4_01();
+            var solution42 = new Q4_02_BSTFromArray();
 
             #endregion
 
-            solution35.Run();
+            solution42.Run();
             Console.ReadKey();
         }
     }
